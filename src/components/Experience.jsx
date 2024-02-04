@@ -6,6 +6,8 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import python from "../assets/python.png";
 import django from "../assets/django.png";
+import Node from "../assets/node.png";
+import mongo1 from "../assets/mongo1.png";
 
 const Experience = () => {
   const techs = [
@@ -50,6 +52,18 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 8,
+      src: Node,
+      title: "Node",
+      style: "shadow-red-400",
+    },
+    {
+      id: 9,
+      src: mongo1,
+      title: "mongoDB",
+      style: "shadow-green-400",
     },
   ];
   return (
