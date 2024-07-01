@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/akshay-prakash-906013293/',
+      href: "https://www.linkedin.com/in/akshay-prakash-906013293/",
       style: "rounded-tr-md",
     },
     {
@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/akshay_resume.pdf",
+      href: "/Akshay-Prakash-New-Resume-.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -52,7 +52,7 @@ const SocialLinks = () => {
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({id, child, href, style, download}) => (
+        {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
@@ -66,9 +66,9 @@ const SocialLinks = () => {
               className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
-              rel="noreferrer" 
+              rel="noreferrer"
             >
-            {child}
+              {child}
             </a>
           </li>
         ))}
