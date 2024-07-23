@@ -8,11 +8,11 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <p className="text-xl mt-20">
-        I'm a dedicated PYTHON FULL STACK developer with a unique journey into the world of programming. I've always had a passion for solving complex problems and building things from scratch. This drive led me to pursue a career in web development, and I haven't looked back since.
+        I'm a dedicated MERN STACK developer with a unique journey into the world of programming. I've always had a passion for solving complex problems and building things from scratch. This drive led me to pursue a career in web development, and I haven't looked back since.
         </p>
         <br />
         <p className="text-xl">
-        I specialize in developing full-stack web applications using PYTHON DJANGO. My journey has been a continuous learning process, and I'm excited to share my experiences and insights with the programming community.
+        I specialize in developing full-stack web applications using REACT-NODE. My journey has been a continuous learning process, and I'm excited to share my experiences and insights with the programming community.
         </p>
       </div>
     </div>
